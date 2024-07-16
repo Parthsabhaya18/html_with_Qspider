@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .ff{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 100vh;
+        }
+      
+    </style>
+</head>
+<body class="ff" align="center">
+    <table   cellpadding="20"  cellspacing="1" align="left" bgcolor="skyblue" border="1" class="inline">
+        <caption>Studen Data</caption>
+        <tr bgcolor="green">
+            <th>ID</th>
+            <th>NAME</th>
+            <th>SUBJECT</th>
+            <th>MARKS</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Parth</td>
+            <td>HTML</td>
+            <td>79</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Chirag</td>
+            <td>java</td>
+            <td>67</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Bhargav</td>
+            <td>React</td>
+            <td>81</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Darshan</td>
+            <td>Css</td>
+            <td>74</td>
+        </tr>
+        <caption align="bottom">Student</caption>
+    </table>
+
+    <!-- colspan and rowspan -->
+
+    <table align="center" border="6" bgcolor="lightgreen" cellspacing="1" cellpadding="15">
+        <tr>
+            <th colspan="4" bgcolor="yellow">Student</th>
+        </tr>
+        <tr>
+            <th colspan="3" bgcolor="red">Details</th>
+            <th rowspan="2" bgcolor="blue">Marks</th>
+        </tr>
+        <tr bgcolor="grey">
+            <th>Id</th>
+            <th>Name</th>
+            <th>subject</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Parth</td>
+            <td>Html</td>
+            <td rowspan="4">1*</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>chirag</td>
+            <td>java</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>bhargav</td>
+            <td>react</td>
+        </tr>
+        
+    </table>
+
+
+</body>
+</html>

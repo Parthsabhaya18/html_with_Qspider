@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    <form action="">
+
+        <label for="">Name :</label>
+        <input required placeholder="Enter Your Name..." type="text">
+        <br><br>
+
+        <label for="">Age :</label>
+        <input required type="number">
+        <br><br>
+
+        <label for="">DOB :</label>
+        <input required type="date">
+        <!-- <input type="time">             -- there are three property of date time  -->
+        <!-- <input type="datetime-local"> -->   
+         <br><br>
+
+         <label for=""> E-Mail : </label>
+         <input required type="email">
+         <br><br>
+
+         <label for="">Phone :</label>
+         <input required pattern="[0-9]{10}" type="tel">
+         <br><br>
+
+         <label for=""> Password :</label>
+         <input required type="password">
+         <br><br>
+        
+         <label for="">Address :</label>
+         <textarea placeholder="Text Area" rows="5" cols="20"></textarea>
+         <br><br>
+
+         <label for="">Gender :</label>
+         <dd>
+         <input  name="again" id="texthover1" type="radio"> <label for="texthover1">Male</label><br>
+         <input name="again" id="texthover2" type="radio"> <label for="texthover2">Female</label><br>
+         <input name="again" id="texthover3" type="radio"> <label for="texthover3">Others</label>
+        </dd>
+         <br>
+
+         <label for="">Upload File :</label>
+         <input type="file">
+         <br><br>
+
+         <label for="">Degree :</label>
+        <select>
+            <option>BCA</option>
+            <option>BSC</option>
+            <option>MCA</option>
+            <option>BTECH</option>
+        </select>
+        <br><br>
+
+        <label for="">Document :</label>
+        <br>
+        <dd>
+        <input id="d1" type="checkbox"><label for="d1">AdharCard</label> <br>
+        <input id="d2" type="checkbox"><label for="d2">Marksheet</label> <br>
+        <input id="d3" type="checkbox"><label for="d3">Pan-Card</label> <br>
+        <input id="d4" type="checkbox"><label for="d4">Leaving Certificate</label>
+    </dd>
+        <br><br>
+        <button>Login</button>
+        <input type="Reset">
+         <input type="submit">
+
+    </form>
+</body>
+</html>
